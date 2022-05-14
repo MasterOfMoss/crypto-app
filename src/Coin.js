@@ -3,7 +3,7 @@ import './Coin.css';
 
 const Coin = ({name, image, symbol, price, volume, priceChange, marketcap}) => {
   return (
-    <div className="custom w-full lg:w-2/3 inline-flex  p-5 mx-auto container items-center my-5  outline rounded-lg">
+    <div className="custom w-full lg:w-2/3 inline-flex  p-5 mx-auto container items-center my-5 outline">
         <div className="w-full md:w-1/2 p-10 mx-10 inline-block px-2">
             <img src={image} className="w-full" alt="crypto"/>
         </div>
